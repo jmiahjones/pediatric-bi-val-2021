@@ -1,0 +1,14 @@
+
+Call:
+roc.formula(formula = BI ~ GLM, data = sens_df %>% filter(wellappearing))
+
+Data: GLM in 1154 controls (BI 0) < 13 cases (BI 1).
+Area under the curve: 0.6944
+95% CI: 0.5167-0.8722 (DeLong)
+
+Call:
+roc.formula(formula = BI ~ SL, data = sens_df %>% filter(wellappearing))
+
+Data: SL in 1154 controls (BI 0) < 13 cases (BI 1).
+Area under the curve: 0.8194
+95% CI: 0.7295-0.9093 (DeLong)
