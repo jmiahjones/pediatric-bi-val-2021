@@ -1,0 +1,14 @@
+
+Call:
+roc.formula(formula = BI ~ GLM, data = rec_df)
+
+Data: GLM in 1320 controls (BI 0) < 99 cases (BI 1).
+Area under the curve: 0.7237
+95% CI: 0.6832-0.7642 (DeLong)
+
+Call:
+roc.formula(formula = BI ~ SL, data = rec_df)
+
+Data: SL in 1320 controls (BI 0) < 99 cases (BI 1).
+Area under the curve: 0.7587
+95% CI: 0.7322-0.7852 (DeLong)
