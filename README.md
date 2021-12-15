@@ -2,5 +2,4 @@
 
 This repository provides the data and code for a validation of a previously-developed Bacterial Infection classifier. The derivation is linked in the ./derivation subfolder, which links to the code in the [Pediatric BI 2020 repository](https://github.com/jmiahjones/pediatric-bi-2020).
 
-The data sheet and codebook may be found inside the *Data for Validation Manuscript. 4.5.21.xlsx*
-workbook.
+Results are catalogued in the *results/* subfolder for the main and supplemental analyses with respect to inflammation: the main analysis results are present in *results/uti* while the markers using only leukocyte esterase are present in *results/leukesterase*. Under each of these folders, we additionally look at the overall bacterial infection outcomes in the *bi* subfolders as well as a sensitivity analysis restricted to the invasive bacterial infection outcomes in the *ibi* subfolders.
